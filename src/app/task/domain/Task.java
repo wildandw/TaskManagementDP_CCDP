@@ -23,6 +23,23 @@ public class Task {
         this.dueDate = dueDate;
     }
 
+    // Tambahkan getter methods ini
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAssignee() {
+        return assignee;
+    }
+
+    public Priority getPriority() {
+        return priority;
+    }
+
+    public LocalDate getDueDate() {
+        return dueDate;
+    }
+
     @Override
     public String toString() {
         return "Task{" +
