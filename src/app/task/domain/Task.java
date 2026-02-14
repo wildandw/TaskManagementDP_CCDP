@@ -32,6 +32,8 @@ public class Task {
         return assignee;
     }
 
+    public void setAssignee(String assignee) { this.assignee = assignee; }
+
     public Priority getPriority() {
         return priority;
     }
